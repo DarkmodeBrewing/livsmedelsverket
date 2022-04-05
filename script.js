@@ -5,7 +5,7 @@ const options = {
   ignoreAttributes: false,
 };
 
-const xmlDataBuffer = fs.readFileSync("20220330.xml"); //http://www7.slv.se/apilivsmedel/LivsmedelService.svc/Livsmedel/Naringsvarde/<ÅÅÅÅMMDD>
+const xmlDataBuffer = fs.readFileSync("20220405.xml"); //http://www7.slv.se/apilivsmedel/LivsmedelService.svc/Livsmedel/Naringsvarde/<ÅÅÅÅMMDD>
 
 const xmlDataStr = xmlDataBuffer.toString();
 
