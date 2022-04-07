@@ -13,11 +13,18 @@ const parser = new XMLParser(options);
 const jsonObj = parser.parse(xmlDataStr);
 const fruktNyckel = "Frukt färsk fryst";
 const barNyckel = "Bär färska frysta";
+const sockerOchHonungsNyckel = "Socker sirap honung";
 const sockerNyckel = "Socker totalt";
+
 const livsmedelslista = jsonObj.LivsmedelDataset.LivsmedelsLista.Livsmedel;
 const frukterOchBar = livsmedelslista.filter(
-  (item) => item.Huvudgrupp === fruktNyckel || item.Huvudgrupp === barNyckel
+  (item) =>
+    item.Huvudgrupp === fruktNyckel ||
+    item.Huvudgrupp === barNyckel ||
+    item.Huvudgrupp === sockerOchHonungsNyckel
 );
+
+const dbImportData = [];
 
 for (const [index, fruktBar] of frukterOchBar.entries()) {
   const namn = fruktBar.Namn;
@@ -25,5 +32,10 @@ for (const [index, fruktBar] of frukterOchBar.entries()) {
   const sockerMangd = fruktBar.Naringsvarden.Naringsvarde.find(
     (naringsvarde) => naringsvarde.Namn === sockerNyckel
   );
-  console.log(`${index + 1}: ${namn} ${sockerMangd.Varde}g per ${viktGram}g`);
+  //console.log(`${index + 1}: ${namn} ${sockerMangd.Varde}g per ${viktGram}g`);
+  dbImportData.push(
+    { name: namn, sugars: parseFloat(sockerMangd.Varde.replace(',','.'))}
+  )
 }
+
+fs.writeFileSync('export.json', JSON.stringify(dbImportData));

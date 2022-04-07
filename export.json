@@ -1,0 +1,258 @@
+[
+  {
+    "name": "Granatäpple",
+    "sugars": 10
+  },
+  {
+    "name": "Grapefrukt",
+    "sugars": 6.9
+  },
+  {
+    "name": "Guava",
+    "sugars": 4.9
+  },
+  {
+    "name": "Hallon",
+    "sugars": 4.1
+  },
+  {
+    "name": "Hjortron",
+    "sugars": 7.7
+  },
+  {
+    "name": "Jordgubbar",
+    "sugars": 7.9
+  },
+  {
+    "name": "Honungsmelon",
+    "sugars": 6.8
+  },
+  {
+    "name": "Nätmelon",
+    "sugars": 5
+  },
+  {
+    "name": "Rabarber tillagad u. socker",
+    "sugars": 1
+  },
+  {
+    "name": "Vattenmelon",
+    "sugars": 8.7
+  },
+  {
+    "name": "Ananas",
+    "sugars": 11.4
+  },
+  {
+    "name": "Apelsin",
+    "sugars": 8.2
+  },
+  {
+    "name": "Aprikos",
+    "sugars": 8.3
+  },
+  {
+    "name": "Banan",
+    "sugars": 18.1
+  },
+  {
+    "name": "Björnbär",
+    "sugars": 5.6
+  },
+  {
+    "name": "Blåbär",
+    "sugars": 6.4
+  },
+  {
+    "name": "Cherimoya",
+    "sugars": 11.7
+  },
+  {
+    "name": "Citron",
+    "sugars": 2.6
+  },
+  {
+    "name": "Småcitrus clementin mandarin tangerin satsumas",
+    "sugars": 9.6
+  },
+  {
+    "name": "Fikon",
+    "sugars": 11.5
+  },
+  {
+    "name": "Fläderbär",
+    "sugars": 6.5
+  },
+  {
+    "name": "Kaktusfikon",
+    "sugars": 7.1
+  },
+  {
+    "name": "Kiwi grön",
+    "sugars": 8.3
+  },
+  {
+    "name": "Krusbär",
+    "sugars": 5.4
+  },
+  {
+    "name": "Physalis",
+    "sugars": 11.7
+  },
+  {
+    "name": "Kumquat",
+    "sugars": 9.3
+  },
+  {
+    "name": "Kvitten",
+    "sugars": 7.3
+  },
+  {
+    "name": "Surkörsbär",
+    "sugars": 15.4
+  },
+  {
+    "name": "Sötkörsbär",
+    "sugars": 14.6
+  },
+  {
+    "name": "Lime",
+    "sugars": 0.6
+  },
+  {
+    "name": "Lingon",
+    "sugars": 8.7
+  },
+  {
+    "name": "Mango",
+    "sugars": 10.4
+  },
+  {
+    "name": "Banan kokbanan",
+    "sugars": 1.4
+  },
+  {
+    "name": "Nektarin",
+    "sugars": 9.8
+  },
+  {
+    "name": "Papaya",
+    "sugars": 9.5
+  },
+  {
+    "name": "Paradisäpple",
+    "sugars": 5.8
+  },
+  {
+    "name": "Passionsfrukt",
+    "sugars": 6.2
+  },
+  {
+    "name": "Persika nektarin",
+    "sugars": 7.8
+  },
+  {
+    "name": "Sharon",
+    "sugars": 18.6
+  },
+  {
+    "name": "Plommon",
+    "sugars": 7.2
+  },
+  {
+    "name": "Päron",
+    "sugars": 11.3
+  },
+  {
+    "name": "Tranbär",
+    "sugars": 3.4
+  },
+  {
+    "name": "Vinbär röda",
+    "sugars": 7.5
+  },
+  {
+    "name": "Vinbär svarta",
+    "sugars": 8.3
+  },
+  {
+    "name": "Vindruvor",
+    "sugars": 16.1
+  },
+  {
+    "name": "Äpple m. skal",
+    "sugars": 9.9
+  },
+  {
+    "name": "Äpple u. skal",
+    "sugars": 10.5
+  },
+  {
+    "name": "Apelsinskal",
+    "sugars": 0
+  },
+  {
+    "name": "Citronskal",
+    "sugars": 0
+  },
+  {
+    "name": "Socker",
+    "sugars": 100
+  },
+  {
+    "name": "Brun farin",
+    "sugars": 94
+  },
+  {
+    "name": "Ljus sirap",
+    "sugars": 80
+  },
+  {
+    "name": "Honung",
+    "sugars": 74.7
+  },
+  {
+    "name": "Druvsocker",
+    "sugars": 91.1
+  },
+  {
+    "name": "Fruktsocker",
+    "sugars": 91.7
+  },
+  {
+    "name": "Havtorn",
+    "sugars": 6.2
+  },
+  {
+    "name": "Aronia",
+    "sugars": 8.8
+  },
+  {
+    "name": "Vinbär vita",
+    "sugars": 7.4
+  },
+  {
+    "name": "Äpple Aroma rött",
+    "sugars": 10.8
+  },
+  {
+    "name": "Äpple Ingrid Marie rött",
+    "sugars": 10.3
+  },
+  {
+    "name": "Äpple Frida",
+    "sugars": 10.9
+  },
+  {
+    "name": "Äpple Golden delicious Granny Smith grönt",
+    "sugars": 8.8
+  },
+  {
+    "name": "Vindruvor gröna",
+    "sugars": 15.2
+  },
+  {
+    "name": "Vindruvor röda",
+    "sugars": 17
+  }
+]
